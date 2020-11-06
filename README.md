@@ -15,7 +15,7 @@ Codes are on Pillow-7.2.0.
 
 Now only mode "L" and "RGB" were same with Python-Pillow. Result of "RGBA" mode is a little different now.
 
-Other modes will find there ways.
+Other modes will find there ways soon.
 
 ## Version
 
@@ -23,7 +23,7 @@ V0.1.
 
 C++11 above.
 
-Only tested on Ubuntu18.04, and it should work on most linux.
+Only tested on Ubuntu18.04, and it should work on most linux. For windows, may be OK.
 
 ## Usage
 
@@ -62,7 +62,7 @@ int main(){
 Obviously you need install openCV. And after installing it, just run code below.
 
 ```Bash
-cd build
+mkdir build && cd build
 cmake ..
 make
 ./app
